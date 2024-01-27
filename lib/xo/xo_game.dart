@@ -64,7 +64,7 @@ class _XoGameState extends State<XoGame> {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       Text(
-                        "${model.name2}",
+                       model.name2,
                         style: TextStyle(fontSize: 30),
                       ),
                       Text(
